@@ -35,7 +35,6 @@ public class IssueReportedxmlParsingServiceImp implements xmlParsingService {
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-		System.out.println("hey whats up");
 		Element rootElement = document.getDocumentElement();
 		Queue<Element> q = new LinkedList<Element>();
 		q.add(rootElement);
